@@ -1,11 +1,11 @@
 {
     "id": "com.ranfdev.Notify",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "45",
+    "runtime-version": "47",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
-        "org.freedesktop.Sdk.Extension.llvm16"
+        "org.freedesktop.Sdk.Extension.llvm18"
     ],
     "command": "notify",
     "finish-args": [
@@ -19,7 +19,7 @@
         "--talk-name=org.freedesktop.Notifications"
     ],
     "build-options": {
-        "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm16/bin",
+        "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm18/bin",
         "env": {
             "CARGO_REGISTRIES_CRATES_IO_PROTOCOL": "sparse",
             "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER": "clang",
@@ -68,8 +68,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ranfdev/Notify/releases/download/v0.1.5/com.ranfdev.Notify.tar.xz",
-                    "sha256": "9ffb179ecc9cfcc8aa7fc0fa77c8963e636cff1b364d878e735c1042b55028b6",
+                    "url": "https://github.com/ranfdev/Notify/releases/download/v0.1.6/com.ranfdev.Notify.tar.xz",
+                    "sha256": "a9d3ed8ccc2e1ff5b4ef4825a4b5fdf247221e94b5a6f9f8860c3cebfebbc918",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/ranfdev/Notify/releases/latest",
