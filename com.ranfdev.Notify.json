@@ -68,8 +68,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/ranfdev/Notify/releases/download/v0.1.5/com.ranfdev.Notify.tar.xz",
-                    "sha256": "9ffb179ecc9cfcc8aa7fc0fa77c8963e636cff1b364d878e735c1042b55028b6",
+                    "url": "https://github.com/ranfdev/Notify/releases/download/v0.1.6/com.ranfdev.Notify.tar.xz",
+                    "sha256": "a9d3ed8ccc2e1ff5b4ef4825a4b5fdf247221e94b5a6f9f8860c3cebfebbc918",
                     "x-checker-data": {
                         "type": "json",
                         "url": "https://api.github.com/repos/ranfdev/Notify/releases/latest",
