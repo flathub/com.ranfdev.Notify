@@ -1,7 +1,7 @@
 {
     "id": "com.ranfdev.Notify",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "47",
+    "runtime-version": "48",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
@@ -55,9 +55,9 @@
             "sources": [
                 {
                   "type": "git",
-                  "url": "https://gitlab.gnome.org/jwestman/blueprint-compiler",
-                  "tag": "v0.14.0",
-                  "commit": "8e10fcf8692108b9d4ab78f41086c5d7773ef864"
+                  "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler.git",
+                  "tag": "v0.18.0",
+                  "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
                 }
             ]
         },
