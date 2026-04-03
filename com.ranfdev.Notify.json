@@ -1,11 +1,11 @@
 {
     "id": "com.ranfdev.Notify",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "48",
+    "runtime-version": "50",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.rust-stable",
-        "org.freedesktop.Sdk.Extension.llvm18"
+        "org.freedesktop.Sdk.Extension.llvm20"
     ],
     "command": "notify",
     "finish-args": [
@@ -19,7 +19,7 @@
         "--talk-name=org.freedesktop.Notifications"
     ],
     "build-options": {
-        "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm18/bin",
+        "append-path": "/usr/lib/sdk/rust-stable/bin:/usr/lib/sdk/llvm20/bin",
         "env": {
             "CARGO_REGISTRIES_CRATES_IO_PROTOCOL": "sparse",
             "CARGO_TARGET_X86_64_UNKNOWN_LINUX_GNU_LINKER": "clang",
@@ -43,21 +43,6 @@
                     "type": "archive",
                     "url": "https://capnproto.org/capnproto-c++-0.10.4.tar.gz",
                     "sha256": "981e7ef6dbe3ac745907e55a78870fbb491c5d23abd4ebc04e20ec235af4458c"
-                }
-            ]
-        },
-        {
-            "name": "blueprint-compiler",
-            "buildsystem": "meson",
-            "cleanup": [
-                "*"
-            ],
-            "sources": [
-                {
-                  "type": "git",
-                  "url": "https://gitlab.gnome.org/GNOME/blueprint-compiler.git",
-                  "tag": "v0.18.0",
-                  "commit": "07c9c9df9cd1b6b4454ecba21ee58211e9144a4b"
                 }
             ]
         },
